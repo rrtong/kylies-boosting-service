@@ -1,0 +1,24 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+#landing {
+  background-color: lightpink;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  font-family: "Indie Flower", cursive;
+  font-size: xx-large;
+  font-weight: bold;
+  color: whitesmoke;
+  text-shadow: 3px 3px black;
+}
