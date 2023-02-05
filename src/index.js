@@ -7,6 +7,11 @@ function App() {
   return (
     <div className="app">
       <Landing />
+      {/* <Mission />
+      <About />
+      <Reviews />
+      <Register />
+      <Sponsors /> */}
     </div>
   );
 }
