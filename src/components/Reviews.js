@@ -5,7 +5,7 @@ import "../styles/Reviews.css";
 const Reviews = () => {
   return (
     <div id="reviews">
-      <div className="title">Our satisfied customers</div>
+      <div className="title">Our satisfied boostees</div>
       <div id="reviewCarousel">
         <Review />
         <Review />
