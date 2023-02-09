@@ -6,7 +6,7 @@ const Review = () => {
     <div id="review">
       <img className="reviewPicture" src={HsinChao} />
       <div className="reviewName">Hsin Chao-Wen</div>
-      <div className="reviewRating">5 stars</div>
+      <div className="reviewRating">5 out of 5 stars</div>
       <div className="reviewDescription">
         Fate has made its choice. I may be outnumbered, but not even the odds
         can stand against me! To the arena!
