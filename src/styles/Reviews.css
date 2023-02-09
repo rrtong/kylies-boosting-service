@@ -21,3 +21,11 @@ html {
   align-items: center;
   height: 10vh;
 }
+
+#reviewCarousel {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+  gap: 2em;
+  margin: 0 10vh;
+}

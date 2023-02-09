@@ -1,0 +1,27 @@
+#review {
+  background-color: white;
+  display: grid;
+  grid-template-areas:
+    "pic name"
+    "pic rating"
+    "desc desc";
+  flex-shrink: 0;
+  width: 40vw;
+}
+
+.reviewPicture {
+  height: 10vh;
+  grid-area: pic;
+}
+
+.reviewName {
+  grid-area: name;
+}
+
+.reviewRating {
+  grid-area: rating;
+}
+
+.reviewDescription {
+  grid-area: desc;
+}
