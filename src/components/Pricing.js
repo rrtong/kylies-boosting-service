@@ -11,7 +11,7 @@ const Pricing = () => {
       <div id="plans">
         <PricingPlan
           ppType={"Basic"}
-          ppPrice={"NT$3000"}
+          ppPrice={"NT$3,000"}
           ppDesc={"if u have no money"}
           ppPerks={
             <div className="pricing-perks">
@@ -28,7 +28,7 @@ const Pricing = () => {
         />
         <PricingPlan
           ppType={"Boosted"}
-          ppPrice={"NT$15000"}
+          ppPrice={"NT$15,000"}
           ppDesc={"if u want something more"}
           ppPerks={
             <div className="pricing-perks">
@@ -45,7 +45,7 @@ const Pricing = () => {
         />
         <PricingPlan
           ppType={"Boujee"}
-          ppPrice={"NT$60000"}
+          ppPrice={"NT$60,000"}
           ppDesc={"if u own china"}
           ppPerks={
             <div className="pricing-perks">
