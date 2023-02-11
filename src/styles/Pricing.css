@@ -34,8 +34,16 @@ html {
   border-bottom: black 1px solid;
 }
 
+.pricing-perk::first-letter {
+  color: green;
+}
+
 .pricing-perk-disabled {
   color: rgba(0, 0, 0, 0.3);
+}
+
+.pricing-perk-disabled::first-letter {
+  color: rgba(0, 0, 0, 0.7);
 }
 
 /* desktop view */

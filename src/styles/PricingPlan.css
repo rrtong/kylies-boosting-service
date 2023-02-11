@@ -32,8 +32,8 @@ html {
 #pp-description {
   margin-top: 10px;
   margin-bottom: 10px;
-  border-top: 2px black solid;
-  border-bottom: 2px black solid;
+  border-top: 2px #d44a61 solid;
+  border-bottom: 2px #d44a61 solid;
   height: 5vh;
   line-height: 5vh;
 }

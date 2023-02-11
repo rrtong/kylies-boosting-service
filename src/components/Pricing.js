@@ -2,7 +2,11 @@ import React from "react";
 import PricingPlan from "../components/PricingPlan";
 import "../styles/Pricing.css";
 
-const ppPerks = ["get to your desired rank"];
+const ppPerks = [
+  "Achieve your desired rank",
+  "Coaching from one of our certified KBS boosters",
+  "Consultation and coaching from our CEO Kylie Hsu in and off the rift",
+];
 
 const Pricing = () => {
   return (
@@ -15,13 +19,12 @@ const Pricing = () => {
           ppDesc={"if u have no money"}
           ppPerks={
             <div className="pricing-perks">
-              <div className="pricing-perk">{ppPerks[0]}</div>
+              <div className="pricing-perk">✓ {ppPerks[0]}</div>
               <div className="pricing-perk pricing-perk-disabled">
-                receive coaching from one of our certified KBS boosters
+                ✗ {ppPerks[1]}
               </div>
               <div className="pricing-perk pricing-perk-disabled">
-                Consultation and coaching from our CEO Kylie Hsu in and out of
-                the rift
+                ✗ {ppPerks[2]}
               </div>
             </div>
           }
@@ -32,13 +35,10 @@ const Pricing = () => {
           ppDesc={"if u want something more"}
           ppPerks={
             <div className="pricing-perks">
-              <div className="pricing-perk">get to your desired rank</div>
-              <div className="pricing-perk">
-                receive coaching from one of our certified KBS boosters
-              </div>
+              <div className="pricing-perk">✓ {ppPerks[0]}</div>
+              <div className="pricing-perk">✓ {ppPerks[1]}</div>
               <div className="pricing-perk pricing-perk-disabled">
-                Consultation and coaching from our CEO Kylie Hsu in and out of
-                the rift
+                ✗ {ppPerks[2]}
               </div>
             </div>
           }
@@ -49,14 +49,9 @@ const Pricing = () => {
           ppDesc={"if u own china"}
           ppPerks={
             <div className="pricing-perks">
-              <div className="pricing-perk">get to your desired rank</div>
-              <div className="pricing-perk">
-                receive coaching from one of our certified KBS boosters
-              </div>
-              <div className="pricing-perk">
-                Consultation and coaching from our CEO Kylie Hsu in and out of
-                the rift
-              </div>
+              <div className="pricing-perk">✓ {ppPerks[0]}</div>
+              <div className="pricing-perk">✓ {ppPerks[1]}</div>
+              <div className="pricing-perk">✓ {ppPerks[2]}</div>
             </div>
           }
         />
