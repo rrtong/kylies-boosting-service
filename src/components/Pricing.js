@@ -32,7 +32,7 @@ const Pricing = () => {
         <PricingPlan
           ppType={"Boosted"}
           ppPrice={"NT$15,000"}
-          ppDesc={"if u want something more"}
+          ppDesc={"if u want more"}
           ppPerks={
             <div className="pricing-perks">
               <div className="pricing-perk">✓ {ppPerks[0]}</div>
