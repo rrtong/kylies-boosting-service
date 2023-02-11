@@ -24,12 +24,12 @@ html {
   font-size: x-large;
 }
 
-.numberOne {
+.number-one {
   height: 20vh;
   background-color: #d44a61;
 }
 
-.numberOneText {
+.number-one-text {
   font-family: sans-serif;
   margin-left: 40vw;
   margin-right: 40vw;

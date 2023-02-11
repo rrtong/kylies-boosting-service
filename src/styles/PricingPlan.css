@@ -1,0 +1,39 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+#pricing-plan {
+  width: 20vh;
+  height: 50vh;
+  border: 2px #d44a61 solid;
+  border-radius: 10px;
+
+  text-align: center;
+  background-color: seashell;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#pp-price {
+  font-size: xx-large;
+}
+
+#pp-description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top: 2px black solid;
+  border-bottom: 2px black solid;
+  height: 5vh;
+  line-height: 5vh;
+}
+
+#pp-submit {
+  margin-top: auto;
+  margin-bottom: 5px;
+}

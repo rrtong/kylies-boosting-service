@@ -3,6 +3,7 @@ import { render } from "react-dom";
 import Landing from "./components/Landing";
 import About from "./components/About";
 import Reviews from "./components/Reviews";
+import Pricing from "./components/Pricing";
 import "./index.css";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Landing />
       <About />
       <Reviews />
+      <Pricing />
       {/*
       <Reviews />
       <Register />

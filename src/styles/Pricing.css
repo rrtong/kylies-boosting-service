@@ -1,0 +1,50 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+#pricing {
+  background-color: #5a6c95;
+  height: 200vh;
+}
+
+.title {
+  color: white;
+  text-shadow: 2px 2px #12253a;
+}
+
+#plans {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10vh;
+  margin: 10vh;
+}
+
+.pricing-perks {
+  border-top: black 1px solid;
+}
+
+.pricing-perk {
+  border-bottom: black 1px solid;
+}
+
+.pricing-perk-disabled {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/* desktop view */
+@media only screen and (min-width: 768px) {
+  #pricing {
+    height: 100vh;
+  }
+
+  #plans {
+    flex-direction: row;
+  }
+}

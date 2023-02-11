@@ -9,19 +9,19 @@
   width: 40vw;
 }
 
-.reviewPicture {
+.review-picture {
   height: 10vh;
   grid-area: pic;
 }
 
-.reviewName {
+.review-name {
   grid-area: name;
 }
 
-.reviewRating {
+.review-rating {
   grid-area: rating;
 }
 
-.reviewDescription {
+.review-description {
   grid-area: desc;
 }

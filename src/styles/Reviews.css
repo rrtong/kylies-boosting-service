@@ -22,7 +22,7 @@ html {
   height: 10vh;
 }
 
-#reviewCarousel {
+#review-carousel {
   display: flex;
   flex-wrap: nowrap;
   overflow: auto;
