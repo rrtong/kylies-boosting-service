@@ -14,9 +14,9 @@
 }
 
 .review-picture {
+  grid-area: pic;
   min-height: 80px;
   height: 5vh;
-  grid-area: pic;
 }
 
 .review-name {

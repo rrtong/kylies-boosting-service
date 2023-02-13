@@ -1,6 +1,8 @@
 import React from "react";
 import Review from "../components/Review";
 import StarIcon from "@mui/icons-material/Star";
+import StarHalfIcon from "@mui/icons-material/StarHalf";
+import StarBorderIcon from "@mui/icons-material/StarBorder";
 import HsinChao from "../assets/hsinchao.png";
 import annifan from "../assets/annifan.png";
 import "../styles/Reviews.css";
