@@ -2,26 +2,40 @@
   background-color: white;
   display: grid;
   grid-template-areas:
-    "pic name"
-    "pic rating"
-    "desc desc";
+    ". . name pic "
+    ". . rating pic "
+    "desc desc desc desc";
   flex-shrink: 0;
-  width: 40vw;
+  min-width: 300px;
+  width: 30vw;
+  border-radius: 10px;
+  justify-content: end;
 }
 
 .review-picture {
-  height: 10vh;
+  height: 5vh;
   grid-area: pic;
 }
 
 .review-name {
   grid-area: name;
+  padding: 1px;
 }
 
 .review-rating {
   grid-area: rating;
+  padding: 1px;
+  color: orange;
 }
 
 .review-description {
   grid-area: desc;
+  padding: 5px;
+}
+
+/* desktop view */
+@media only screen and (min-width: 768px) {
+  #review {
+    width: 15vw;
+  }
 }

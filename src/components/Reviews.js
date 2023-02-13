@@ -1,8 +1,9 @@
 import React from "react";
 import Review from "../components/Review";
-import "../styles/Reviews.css";
+import StarIcon from "@mui/icons-material/Star";
 import HsinChao from "../assets/hsinchao.png";
 import annifan from "../assets/annifan.png";
+import "../styles/Reviews.css";
 
 const Reviews = () => {
   return (
@@ -11,7 +12,16 @@ const Reviews = () => {
       <div id="review-carousel">
         <Review
           revPicture={HsinChao}
-          revName={"Hsin Chao-Wen"}
+          revName={"Hsin Chao-wen 趙信文"}
+          revRating={
+            <div>
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+            </div>
+          }
           revDesc={
             "Fate has made its choice. I may be outnumbered, but not even the odds can stand against me! To the arena!"
           }
@@ -19,46 +29,109 @@ const Reviews = () => {
         <Review
           revPicture={annifan}
           revName={"Fan Anni"}
+          revRating={
+            <div>
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+            </div>
+          }
           revDesc={"Day breaks upon the battlefield! I must not fall."}
         />
         <Review
           revPicture={HsinChao}
-          revName={"Hsin Chao-Wen"}
+          revName={"Hsin Chao-wen 趙信文"}
+          revRating={
+            <div>
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+            </div>
+          }
           revDesc={
             "Fate has made its choice. I may be outnumbered, but not even the odds can stand against me! To the arena!"
           }
         />
         <Review
           revPicture={HsinChao}
-          revName={"Hsin Chao-Wen"}
+          revName={"Hsin Chao-wen 趙信文"}
+          revRating={
+            <div>
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+            </div>
+          }
           revDesc={
             "Fate has made its choice. I may be outnumbered, but not even the odds can stand against me! To the arena!"
           }
         />
         <Review
           revPicture={HsinChao}
-          revName={"Hsin Chao-Wen"}
+          revName={"Hsin Chao-wen 趙信文"}
+          revRating={
+            <div>
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+            </div>
+          }
           revDesc={
             "Fate has made its choice. I may be outnumbered, but not even the odds can stand against me! To the arena!"
           }
         />
         <Review
           revPicture={HsinChao}
-          revName={"Hsin Chao-Wen"}
+          revName={"Hsin Chao-wen 趙信文"}
+          revRating={
+            <div>
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+            </div>
+          }
           revDesc={
             "Fate has made its choice. I may be outnumbered, but not even the odds can stand against me! To the arena!"
           }
         />
         <Review
           revPicture={HsinChao}
-          revName={"Hsin Chao-Wen"}
+          revName={"Hsin Chao-wen 趙信文"}
+          revRating={
+            <div>
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+            </div>
+          }
           revDesc={
             "Fate has made its choice. I may be outnumbered, but not even the odds can stand against me! To the arena!"
           }
         />
         <Review
           revPicture={HsinChao}
-          revName={"Hsin Chao-Wen"}
+          revName={"Hsin Chao-wen 趙信文"}
+          revRating={
+            <div>
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+              <StarIcon />
+            </div>
+          }
           revDesc={
             "Fate has made its choice. I may be outnumbered, but not even the odds can stand against me! To the arena!"
           }
