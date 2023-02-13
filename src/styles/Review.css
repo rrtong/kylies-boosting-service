@@ -10,27 +10,31 @@
   width: 30vw;
   border-radius: 10px;
   justify-content: end;
+  height: 200px;
 }
 
 .review-picture {
+  min-height: 80px;
   height: 5vh;
   grid-area: pic;
 }
 
 .review-name {
   grid-area: name;
-  padding: 1px;
+  margin-top: 5px;
+  margin-right: 10px;
 }
 
 .review-rating {
   grid-area: rating;
-  padding: 1px;
+  margin-right: 10px;
   color: orange;
 }
 
 .review-description {
   grid-area: desc;
-  padding: 5px;
+  margin: 10px;
+  overflow: auto;
 }
 
 /* desktop view */

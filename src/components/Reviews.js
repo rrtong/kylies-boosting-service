@@ -53,7 +53,7 @@ const Reviews = () => {
             </div>
           }
           revDesc={
-            "Fate has made its choice. I may be outnumbered, but not even the odds can stand against me! To the arena!"
+            "Fate has made its choice. Lorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem Lorem I may be outnumbered, but not even the odds can stand against me! To the arena!"
           }
         />
         <Review
