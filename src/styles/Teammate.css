@@ -7,6 +7,7 @@
   background-color: #d44a61;
   width: 400px;
   height: 30vh;
+  min-height: 250px;
   max-height: 300px;
   border-radius: 25px;
 }

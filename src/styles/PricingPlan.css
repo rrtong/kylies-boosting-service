@@ -9,6 +9,7 @@ html {
 
 #pricing-plan {
   width: 20vh;
+  min-width: 200px;
   height: 50vh;
   border: 4px #d44a61 solid;
   border-radius: 10px;
