@@ -7,6 +7,7 @@ import HsinChao from "../assets/hsinchao.png";
 import yordleexpedition from "../assets/yordleexpedition.png";
 import keria from "../assets/keria.png";
 import maozedong from "../assets/maozedong.png";
+import annifan from "../assets/annifan.png";
 import "../styles/Reviews.css";
 
 const Reviews = () => {
@@ -77,8 +78,8 @@ const Reviews = () => {
           }
         />
         <Review
-          revPicture={HsinChao}
-          revName={"Hsin Chao-wen 趙信文"}
+          revPicture={annifan}
+          revName={"pilocasejp"}
           revRating={
             <div>
               <StarIcon />
@@ -89,7 +90,7 @@ const Reviews = () => {
             </div>
           }
           revDesc={
-            "Fate has made its choice. I may be outnumbered, but not even the odds can stand against me! To the arena!"
+            "ラムス――謎に包まれたこの生き物を、聖なる存在と崇拝してやまない者は多い。一方で、ただの動物に過ぎないと見る者もいる。その素性は誰にも分からない。人々は棘の付いた甲羅を持つラムスについて様々な説を打ち立てる。ラムスの姿が確認された場所では、半神だ、いや神聖なる神の遣いだ、魔術で姿を変えられたただの獣だ、などと論争が巻き起こる。真実がどうであれラムスは沈黙を守り、独り砂漠を彷徨って、他者と関わろうとはしない。"
           }
         />
         <Review
