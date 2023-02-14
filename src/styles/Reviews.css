@@ -27,7 +27,7 @@ html {
   flex-wrap: nowrap;
   overflow: auto;
   gap: 2em;
-  margin: 0 10vh;
+  margin: 0 50px;
 }
 
 /* width */

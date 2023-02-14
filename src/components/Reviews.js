@@ -5,6 +5,7 @@ import StarHalfIcon from "@mui/icons-material/StarHalf";
 import StarBorderIcon from "@mui/icons-material/StarBorder";
 import HsinChao from "../assets/hsinchao.png";
 import annifan from "../assets/annifan.png";
+import yordleexpedition from "../assets/yordleexpedition.png";
 import "../styles/Reviews.css";
 
 const Reviews = () => {
@@ -29,7 +30,7 @@ const Reviews = () => {
           }
         />
         <Review
-          revPicture={annifan}
+          revPicture={yordleexpedition}
           revName={"Fan Anni"}
           revRating={
             <div>
@@ -40,7 +41,7 @@ const Reviews = () => {
               <StarIcon />
             </div>
           }
-          revDesc={"Day breaks upon the battlefield! I must not fall."}
+          revDesc={"好。"}
         />
         <Review
           revPicture={HsinChao}
