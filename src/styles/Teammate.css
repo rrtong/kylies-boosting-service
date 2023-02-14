@@ -1,0 +1,26 @@
+#teammate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #d44a61;
+  width: 400px;
+  height: 30vh;
+  max-height: 300px;
+  border-radius: 25px;
+}
+
+.teammate-pic img {
+  height: 200px;
+  border-radius: 200px;
+}
+
+.teammate-name {
+  font-size: large;
+  font-weight: bold;
+}
+
+.teammate-role {
+  font-weight: 500;
+}

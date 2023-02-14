@@ -9,5 +9,11 @@ html {
 
 #about {
   background-color: #8cd699;
-  height: 40vh;
+  height: 50vh;
+}
+
+#team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
