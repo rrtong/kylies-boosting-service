@@ -12,16 +12,6 @@ html {
   height: 50vh;
 }
 
-.title {
-  font-family: "Indie Flower", cursive;
-  font-weight: bold;
-  font-size: x-large;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 15vh;
-}
-
 #review-carousel {
   display: flex;
   flex-wrap: nowrap;

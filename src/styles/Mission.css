@@ -1,0 +1,41 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+#mission {
+  font-family: "Indie Flower", cursive;
+  font-weight: bold;
+  background-color: #8cd699;
+  height: 40vh;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  color: #ffe431;
+  text-shadow: 2px 2px #12253a;
+  font-size: x-large;
+  padding: 50px;
+}
+
+.number-one {
+  height: 20vh;
+  background-color: #d44a61;
+}
+
+.number-one-text {
+  font-family: sans-serif;
+  margin-left: 40vw;
+  margin-right: 40vw;
+  text-align: center;
+  background-color: white;
+  color: #d44a61;
+  font-size: 18vh;
+}

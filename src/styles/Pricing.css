@@ -12,11 +12,6 @@ html {
   height: 200vh;
 }
 
-.title {
-  color: white;
-  text-shadow: 2px 2px #12253a;
-}
-
 #plans {
   display: flex;
   flex-direction: column;
