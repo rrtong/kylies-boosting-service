@@ -6,6 +6,7 @@ import StarBorderIcon from "@mui/icons-material/StarBorder";
 import HsinChao from "../assets/hsinchao.png";
 import yordleexpedition from "../assets/yordleexpedition.png";
 import keria from "../assets/keria.png";
+import maozedong from "../assets/maozedong.png";
 import "../styles/Reviews.css";
 
 const Reviews = () => {
@@ -60,8 +61,8 @@ const Reviews = () => {
           }
         />
         <Review
-          revPicture={HsinChao}
-          revName={"Hsin Chao-wen 趙信文"}
+          revPicture={maozedong}
+          revName={"Mao Ze Dong 2g"}
           revRating={
             <div>
               <StarIcon />
@@ -72,7 +73,7 @@ const Reviews = () => {
             </div>
           }
           revDesc={
-            "Fate has made its choice. I may be outnumbered, but not even the odds can stand against me! To the arena!"
+            "许多人对其崇拜敬仰，少数人对其嗤之以鼻，但所有人都对其一无所知。奇怪而有趣的生物拉莫斯就是一个谜团。他全身覆盖尖刺硬壳，人们对他的出身来历的猜测层出不穷——有人说他是半神，有人说他是神谕者，有人说他只是普通的野兽，遭遇了魔法的影响而发生彻底变异。无论真相如何，拉莫斯始终都默不作声，而且不会为任何人停留，永远都在恕瑞玛的沙漠中奔走游荡。"
           }
         />
         <Review
