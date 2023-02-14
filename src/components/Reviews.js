@@ -4,8 +4,8 @@ import StarIcon from "@mui/icons-material/Star";
 import StarHalfIcon from "@mui/icons-material/StarHalf";
 import StarBorderIcon from "@mui/icons-material/StarBorder";
 import HsinChao from "../assets/hsinchao.png";
-import annifan from "../assets/annifan.png";
 import yordleexpedition from "../assets/yordleexpedition.png";
+import keria from "../assets/keria.png";
 import "../styles/Reviews.css";
 
 const Reviews = () => {
@@ -44,8 +44,8 @@ const Reviews = () => {
           revDesc={"好。"}
         />
         <Review
-          revPicture={HsinChao}
-          revName={"Hsin Chao-wen 趙信文"}
+          revPicture={keria}
+          revName={"류민석 Keria"}
           revRating={
             <div>
               <StarIcon />
@@ -56,7 +56,7 @@ const Reviews = () => {
             </div>
           }
           revDesc={
-            "Fate has made its choice. Lorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem LoremLorem Lorem I may be outnumbered, but not even the odds can stand against me! To the arena!"
+            "알수 없는 신비의 존재 람머스. 누군가에게는 숭배의 대상이고, 또 누군가에게는 경외의 대상인 우상과도 같은 인물. 더러는 우리와 똑같은 인간으로 여겨지는 경우도 있다. 하지만 한 가지 분명한 것은 그 누구도 람머스의 정체를 제대로 알지 못한다는 것. 베일에 가려진 수수께끼의 존재라는 사실이다. 뾰족한 못이 박힌 갑옷을 입고 다니는 그를 두고 사람들은 여러가지 추측을 내놓는다. 반신반인의 존재라느니, 신성한 사제라느니, 마술에 걸린 야수일 뿐이라는 얘기까지 무척이나 다양하다. 그러나 진실이 무엇이든, 사막을 배회하며 뭐든지 제 생각대로 해버리고 마는 람머스의 의지를 꺾을 자는 아무도 없다."
           }
         />
         <Review
