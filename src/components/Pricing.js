@@ -6,6 +6,7 @@ const ppPerks = [
   "Achieve your desired rank",
   "Coaching from one of our certified KBS boosters",
   "Consultation and coaching from our CEO Kylie Hsu in and off the rift",
+  "Boost your Legendary Rank up to Commander III",
 ];
 
 const Pricing = () => {
@@ -49,7 +50,10 @@ const Pricing = () => {
           ppDesc={"if u own china"}
           ppPerks={
             <div className="pricing-perks">
-              <div className="pricing-perk">✓ {ppPerks[0]}</div>
+              <div className="pricing-perk">
+                ✓ {ppPerks[0]} within one ranked season
+              </div>
+              <div className="pricing-perk">✓ {ppPerks[3]}</div>
               <div className="pricing-perk">✓ {ppPerks[1]}</div>
               <div className="pricing-perk">✓ {ppPerks[2]}</div>
             </div>
