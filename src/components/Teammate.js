@@ -4,7 +4,7 @@ const Teammate = (props) => {
   return (
     <div id="teammate">
       <div className="teammate-pic">
-        <img src={props.pic} alt="kylie"></img>
+        <img src={props.pic} alt="pic"></img>
       </div>
       <div className="teammate-name">{props.name}</div>
       <div className="teammate-role">{props.role}</div>

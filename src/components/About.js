@@ -34,11 +34,6 @@ const About = () => {
         />
         <Teammate
           pic={rammus}
-          name={'Ryan "Zukshin" Shin'}
-          role={"Associate Booster"}
-        />
-        <Teammate
-          pic={rammus}
           name={'Bao Bao "dan tat" Alan'}
           role={"Associate Booster"}
         />

@@ -5,7 +5,7 @@
   align-items: center;
   color: white;
   background-color: #d44a61;
-  width: 400px;
+  width: 350px;
   height: 30vh;
   min-height: 260px;
   max-height: 300px;
@@ -24,4 +24,11 @@
 
 .teammate-role {
   font-weight: 500;
+}
+
+/* tablet view */
+@media only screen and (min-width: 768px) {
+  #teammate {
+    width: 400px;
+  }
 }
