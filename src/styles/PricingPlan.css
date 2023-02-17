@@ -11,6 +11,7 @@ html {
   width: 20vh;
   min-width: 200px;
   height: 50vh;
+  min-height: 425px;
   border: 4px #d44a61 solid;
   border-radius: 10px;
 
