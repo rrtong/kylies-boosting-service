@@ -20,7 +20,7 @@
 
 .teammate-pic img:hover {
   height: 205px;
-  filter: saturate(7);
+  filter: saturate(3);
 }
 
 .teammate-name {
