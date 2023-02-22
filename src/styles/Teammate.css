@@ -15,6 +15,12 @@
 .teammate-pic img {
   height: 200px;
   border-radius: 200px;
+  transition: 0.3s;
+}
+
+.teammate-pic img:hover {
+  height: 205px;
+  filter: saturate(7);
 }
 
 .teammate-name {
