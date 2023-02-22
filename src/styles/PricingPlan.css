@@ -45,7 +45,7 @@ html {
   margin-bottom: 5px;
 }
 
-#pp-submit a button {
+#pp-submit button {
   color: #ffe431;
   background-color: #8cd699;
   border: none;
@@ -57,7 +57,7 @@ html {
   transition: 0.3s;
 }
 
-#pp-submit a button:hover {
+#pp-submit button:hover {
   opacity: 0.7;
   cursor: pointer;
 }

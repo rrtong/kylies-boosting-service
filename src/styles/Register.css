@@ -1,0 +1,18 @@
+#register {
+  /* position: absolute; */
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+#register form {
+  display: initial;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  width: 500px;
+}
+
+.form-text {
+  display: flex;
+  flex-direction: column;
+}

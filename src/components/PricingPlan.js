@@ -9,9 +9,12 @@ const PricingPlan = (props) => {
       <div id="pp-description">{props.ppDesc}</div>
       <div id="pp-perks">{props.ppPerks}</div>
       <div id="pp-submit">
-        <a href={"https://www.twitch.tv/ryuu"} target="_blank">
-          <button>Boosted!</button>
-        </a>
+        <button onClick={() => props.setShowRegister(!props.showRegister)}>
+          Boosted!
+        </button>
+
+        {/* <a href={"https://www.twitch.tv/ryuu"} target="_blank"> */}
+        {/* </a> */}
       </div>
     </div>
   );

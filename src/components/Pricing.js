@@ -9,7 +9,7 @@ const ppPerks = [
   "Boost your Legendary Rank up to Commander III",
 ];
 
-const Pricing = () => {
+const Pricing = (props) => {
   return (
     <div id="pricing">
       <div className="title">our boosting plans!</div>
@@ -29,6 +29,8 @@ const Pricing = () => {
               </div>
             </div>
           }
+          showRegister={props.showRegister}
+          setShowRegister={props.setShowRegister}
         />
         <PricingPlan
           ppType={"Boosted"}
@@ -43,6 +45,8 @@ const Pricing = () => {
               </div>
             </div>
           }
+          showRegister={props.showRegister}
+          setShowRegister={props.setShowRegister}
         />
         <PricingPlan
           ppType={"Boujee"}
@@ -58,6 +62,8 @@ const Pricing = () => {
               <div className="pricing-perk">✓ {ppPerks[2]}</div>
             </div>
           }
+          showRegister={props.showRegister}
+          setShowRegister={props.setShowRegister}
         />
       </div>
     </div>
