@@ -5,6 +5,7 @@ import Mission from "./components/Mission";
 import About from "./components/About";
 import Reviews from "./components/Reviews";
 import Pricing from "./components/Pricing";
+import Footer from "./components/Footer";
 import "./index.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Reviews />
       <Pricing />
+      <Footer />
       {/*
       <Register />
       <Sponsors /> 

@@ -43,7 +43,7 @@ const Reviews = () => {
               <StarIcon />
             </div>
           }
-          revDesc={"好。"}
+          revDesc={"下次吧！！"}
         />
         <Review
           revPicture={keria}
