@@ -9,12 +9,14 @@ const PricingPlan = (props) => {
       <div id="pp-description">{props.ppDesc}</div>
       <div id="pp-perks">{props.ppPerks}</div>
       <div id="pp-submit">
-        <button onClick={() => props.setShowRegister(!props.showRegister)}>
+        <button
+          onClick={() => {
+            props.setShowRegister(!props.showRegister);
+            props.setSelectedTier(props.ppType.toLowerCase());
+          }}
+        >
           Boosted!
         </button>
-
-        {/* <a href={"https://www.twitch.tv/ryuu"} target="_blank"> */}
-        {/* </a> */}
       </div>
     </div>
   );

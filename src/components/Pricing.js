@@ -17,7 +17,7 @@ const Pricing = (props) => {
         <PricingPlan
           ppType={"Basic"}
           ppPrice={"NT$3,000"}
-          ppDesc={"if u have no money"}
+          ppDesc={"if u take lunch money"}
           ppPerks={
             <div className="pricing-perks">
               <div className="pricing-perk">✓ {ppPerks[0]}</div>
@@ -31,11 +31,12 @@ const Pricing = (props) => {
           }
           showRegister={props.showRegister}
           setShowRegister={props.setShowRegister}
+          setSelectedTier={props.setSelectedTier}
         />
         <PricingPlan
           ppType={"Boosted"}
           ppPrice={"NT$15,000"}
-          ppDesc={"if u want more"}
+          ppDesc={"if u give lunch money"}
           ppPerks={
             <div className="pricing-perks">
               <div className="pricing-perk">✓ {ppPerks[0]}</div>
@@ -47,11 +48,12 @@ const Pricing = (props) => {
           }
           showRegister={props.showRegister}
           setShowRegister={props.setShowRegister}
+          setSelectedTier={props.setSelectedTier}
         />
         <PricingPlan
           ppType={"Boujee"}
           ppPrice={"NT$60,000"}
-          ppDesc={"if u own china"}
+          ppDesc={"if u own the cafeteria"}
           ppPerks={
             <div className="pricing-perks">
               <div className="pricing-perk">
@@ -64,6 +66,7 @@ const Pricing = (props) => {
           }
           showRegister={props.showRegister}
           setShowRegister={props.setShowRegister}
+          setSelectedTier={props.setSelectedTier}
         />
       </div>
     </div>

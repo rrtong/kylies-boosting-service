@@ -11,6 +11,7 @@ import "./index.css";
 
 function App() {
   const [showRegister, setShowRegister] = useState(false);
+  const [selectedTier, setSelectedTier] = useState("basic");
 
   return (
     <div className="app">
@@ -18,13 +19,13 @@ function App() {
       <Mission />
       <About />
       <Reviews />
-      <Pricing showRegister={showRegister} setShowRegister={setShowRegister} />
-      {showRegister && <Register />}
+      <Pricing
+        showRegister={showRegister}
+        setShowRegister={setShowRegister}
+        setSelectedTier={setSelectedTier}
+      />
+      {showRegister && <Register selectedTier={selectedTier} />}
       <Footer />
-      {/*
-      <Register />
-      <Sponsors /> 
-      */}
     </div>
   );
 }
