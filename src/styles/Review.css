@@ -4,6 +4,8 @@
   grid-template-areas:
     ". . name pic "
     ". . rating pic "
+    ". . . ."
+    "desc desc desc desc"
     "desc desc desc desc";
   flex-shrink: 0;
   min-width: 300px;
