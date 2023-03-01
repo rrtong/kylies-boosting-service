@@ -12,6 +12,7 @@ html {
   font-weight: bold;
   background-color: #8cd699;
   height: 40vh;
+  min-height: 200px;
 }
 
 .text {
@@ -19,6 +20,7 @@ html {
   justify-content: center;
   align-items: center;
   height: 20vh;
+  min-height: 100px;
   color: #ffe431;
   text-shadow: 2px 2px #12253a;
   font-size: x-large;

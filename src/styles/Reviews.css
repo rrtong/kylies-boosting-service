@@ -10,6 +10,7 @@ html {
 #reviews {
   background-color: #3d7ca9;
   height: 50vh;
+  min-height: 350px;
 }
 
 #review-carousel {

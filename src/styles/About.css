@@ -10,6 +10,7 @@ html {
 #about {
   background-color: #8cd699;
   height: 400vh;
+  min-height: 3000px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,6 +23,13 @@ html {
   justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
+}
+
+/* two columns */
+@media only screen and (min-width: 720px) {
+  #about {
+    height: 350vh;
+  }
 }
 
 /* tablet view */
@@ -42,6 +50,7 @@ html {
 @media only screen and (min-width: 1920px) {
   #about {
     height: 150vh;
+    min-height: 1200px;
   }
 }
 
