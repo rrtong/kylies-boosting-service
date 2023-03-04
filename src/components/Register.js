@@ -11,7 +11,10 @@ const Register = (props) => {
         <label>
           <div className="form-dropdown">
             Type:
-            <select value={props.selectedTier}>
+            <select
+              value={props.selectedTier}
+              onChange={(e) => props.setSelectedTier(e.target.value)}
+            >
               <option value="basic">Basic</option>
               <option value="boosted">Boosted</option>
               <option value="boujee">Boujee</option>
@@ -23,7 +26,7 @@ const Register = (props) => {
           </div>
           <div className="form-dropdown">
             Desired Rank:
-            <select value={props.selectedTier}>
+            <select value={props.selectedRank}>
               <option value="iron">Iron</option>
               <option value="bronze">Bronze</option>
               <option value="silver">Silver</option>
