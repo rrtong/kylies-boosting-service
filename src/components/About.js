@@ -10,7 +10,7 @@ const About = () => {
       <div>
         <Teammate
           pic={sweepershinchan}
-          url={"https://soliloquyxxx.livejournal.com/"}
+          url={"https://www.twitch.tv/soliloquyxx"}
           name={'Kylie Chao-wen "quyxx" Hsu'}
           role={"CEO"}
         />
