@@ -2,15 +2,15 @@
   background-color: white;
   display: grid;
   grid-template-areas:
-    ". . name pic "
-    ". . rating pic "
+    ". . name pic"
+    ". . rating pic"
     ". . . ."
     "desc desc desc desc"
     "desc desc desc desc";
   flex-shrink: 0;
-  min-width: 300px;
+  min-width: 310px;
   width: 30vw;
-  border-radius: 10px;
+  border-radius: 20px;
   justify-content: end;
   height: 200px;
 }

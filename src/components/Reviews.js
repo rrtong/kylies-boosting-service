@@ -44,7 +44,7 @@ const Reviews = () => {
               <StarIcon />
               <StarIcon />
               <StarIcon />
-              <StarIcon />
+              <StarHalfIcon />
             </div>
           }
           revDesc={"下次吧！！"}
