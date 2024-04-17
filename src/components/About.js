@@ -47,15 +47,15 @@ const About = () => {
           role={"Senior Principal Executive Booster"}
         />
         <Teammate
-          pic={rammus_ryan}
-          url={"https://www.sporcle.com/user/Zukshin/"}
-          name={'Ryan "Zukshin" Shin'}
-          role={"Associate Booster"}
-        />
-        <Teammate
           pic={rammus_alab}
           url={"https://steamcommunity.com/id/momono/"}
           name={'Bao Bao "dan tat" Alan'}
+          role={"Booster"}
+        />
+        <Teammate
+          pic={rammus_ryan}
+          url={"https://www.sporcle.com/user/Zukshin/"}
+          name={'Ryan "Zukshin" Shin'}
           role={"Associate Booster"}
         />
         <Teammate
