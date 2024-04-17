@@ -1,6 +1,10 @@
 import React from "react";
 import Teammate from "../components/Teammate";
 import sweepershinchan from "../assets/sweepershinchan.png";
+import rammus_alab from "../assets/rammus.png";
+import rammus_arki from "../assets/rammus_arki.jpg";
+import rammus_chrik from "../assets/rammus_chrik.png";
+import rammus_ryan from "../assets/rammus_ryan.png";
 import "../styles/About.css";
 
 const About = () => {
@@ -25,9 +29,7 @@ const About = () => {
           role={"CMO"}
         />
         <Teammate
-          pic={
-            "https://cdn.discordapp.com/avatars/270431140056268800/0c01c6a69cbbc12feb2c8906aa4349be.webp?size=256"
-          }
+          pic={rammus_arki}
           url={"https://www.youtube.com/@HotSmiles"}
           name={'Joshua Arukisato "Arki" Sato'}
           role={"CFO"}
@@ -41,25 +43,19 @@ const About = () => {
           role={"Senior Principal Executive Booster"}
         />
         <Teammate
-          pic={
-            "https://cdn.discordapp.com/guilds/948856567871209472/users/109127630766239744/avatars/82e033c426509a301f8f6749d7bfb30b.webp?size=256"
-          }
+          pic={rammus_ryan}
           url={"https://www.sporcle.com/user/Zukshin/"}
           name={'Ryan "Zukshin" Shin'}
           role={"Associate Booster"}
         />
         <Teammate
-          pic={
-            "https://cdn.discordapp.com/avatars/164081559673110528/ac8ed4bb9f55ce6bc310641da3889ebc.webp?size=256"
-          }
+          pic={rammus_alab}
           url={"https://steamcommunity.com/id/momono/"}
           name={'Bao Bao "dan tat" Alan'}
           role={"Associate Booster"}
         />
         <Teammate
-          pic={
-            "https://cdn.discordapp.com/avatars/264567216698032139/2c12048d635854d4317d392cfdc680ec.webp?size=256"
-          }
+          pic={rammus_chrik}
           url={"https://www.youtube.com/@chrik119"}
           name={'Chriktopher "LlTTLEST LEGEND" 119'}
           role={"Booster Intern"}
