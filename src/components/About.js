@@ -5,6 +5,8 @@ import rammus_alab from "../assets/rammus.png";
 import rammus_arki from "../assets/rammus_arki.jpg";
 import rammus_chrik from "../assets/rammus_chrik.png";
 import rammus_ryan from "../assets/rammus_ryan.png";
+import rammus_frank from "../assets/rammus_frank.png";
+import rammus_reanemone from "../assets/rammus_reanemone.png";
 import "../styles/About.css";
 
 const About = () => {
@@ -55,6 +57,12 @@ const About = () => {
           role={"Associate Booster"}
         />
         <Teammate
+          pic={rammus_frank}
+          url={"https://apexlegendsstatus.com/profile/PC/uchiha1xmadara"}
+          name={'Franklin "Guts" Uchiha'}
+          role={"Associate Booster"}
+        />
+        <Teammate
           pic={rammus_chrik}
           url={"https://www.youtube.com/@chrik119"}
           name={'Chriktopher "LlTTLEST LEGEND" 119'}
@@ -70,6 +78,14 @@ const About = () => {
         />
         <Teammate
           pic={
+            "https://cdn.discordapp.com/avatars/330254340482793472/bf1e0ba20c9c89e9960b6a9de33b9086.webp?size=256"
+          }
+          url={"https://steamcommunity.com/id/momonobadgirltimeout"}
+          name={'Just "Ammeck" n0k1'}
+          role={"Booster Intern"}
+        />
+        <Teammate
+          pic={
             "https://cdn.discordapp.com/guilds/948856567871209472/users/190657628928606208/avatars/4c3611a8248c1cd021f42d8a161343dd.webp?size=256"
           }
           url={"https://www.twitch.tv/hikarinyui"}
@@ -77,11 +93,9 @@ const About = () => {
           role={"Booster Intern"}
         />
         <Teammate
-          pic={
-            "https://cdn.discordapp.com/avatars/330254340482793472/bf1e0ba20c9c89e9960b6a9de33b9086.webp?size=256"
-          }
-          url={"https://steamcommunity.com/id/momonobadgirltimeout"}
-          name={'Just "Ammeck" n0k1'}
+          pic={rammus_reanemone}
+          url={"https://www.twitch.tv/reanemone"}
+          name={'Reanna "Reanemone" Money'}
           role={"Onboarding"}
         />
       </div>
