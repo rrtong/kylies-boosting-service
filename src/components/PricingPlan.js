@@ -11,7 +11,7 @@ const PricingPlan = (props) => {
       <div id="pp-submit">
         <button
           onClick={() => {
-            props.setShowRegister(!props.showRegister);
+            props.setShowRegister(true);
             props.setSelectedTier(props.ppType.toLowerCase());
           }}
         >

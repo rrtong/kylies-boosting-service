@@ -1,23 +1,50 @@
 #register {
   display: flex;
   justify-content: center;
-  align-self: center;
 }
 
 #register form {
-  position: absolute;
+  align-self: center;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 1;
+  right: 1;
+  bottom: 0;
+
   flex-direction: column;
   border: 5px solid #ccc;
-  width: 500px;
+  width: 200px;
   background-color: #8cd699;
   padding: 10px;
   border-radius: 20px;
   box-shadow: 5px 10px #12253a;
 }
 
+/* two columns */
+@media only screen and (min-width: 720px) {
+  #register form {
+    width: 500px;
+  }
+}
+
 .form-text {
   display: flex;
   flex-direction: column;
+}
+
+.form-close {
+  margin: 0 auto;
+  margin-right: 0;
+  text-align: center;
+  line-height: 18px;
+  font-weight: bolder;
+  font-size: medium;
+  background-color: #ffe431;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  color: #d44a61;
 }
 
 .form-dropdown {
@@ -29,7 +56,6 @@
   display: block;
   margin: 20px auto 10px auto;
   color: #ffe431;
-  background-color: #d44a61;
   border: none;
   border-radius: 20px;
   height: 30px;

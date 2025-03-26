@@ -24,7 +24,12 @@ function App() {
         setShowRegister={setShowRegister}
         setSelectedTier={setSelectedTier}
       />
-      {showRegister && <Register selectedTier={selectedTier} />}
+      {showRegister && (
+        <Register
+          selectedTier={selectedTier}
+          setShowRegister={setShowRegister}
+        />
+      )}
       <Footer />
     </div>
   );
