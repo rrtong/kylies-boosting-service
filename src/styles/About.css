@@ -28,7 +28,7 @@ html {
 /* two columns */
 @media only screen and (min-width: 720px) {
   #about {
-    height: 350vh;
+    height: 400vh;
   }
 }
 
