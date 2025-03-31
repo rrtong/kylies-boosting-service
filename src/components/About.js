@@ -22,7 +22,7 @@ const About = () => {
       <div>
         <Teammate
           pic={sweepershinchan}
-          url={"https://www.twitch.tv/soliloquyxx"}
+          url={"https://www.neopets.com/userlookup.phtml?user=soliloquyxx"}
           name={'Kylie Chao-wen "quyxx" Hsu'}
           role={"CEO"}
         />
@@ -90,7 +90,7 @@ const About = () => {
         />
         <Teammate
           pic={rammus_reanemone}
-          url={"https://www.twitch.tv/reanemone"}
+          url={"https://ca.pinterest.com/reanemone/"}
           name={'Reanna "Reanemone" Money'}
           role={"Onboarding"}
         />

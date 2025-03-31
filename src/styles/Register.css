@@ -45,6 +45,7 @@
   width: 20px;
   height: 20px;
   color: #d44a61;
+  cursor: pointer;
 }
 
 .form-dropdown {
